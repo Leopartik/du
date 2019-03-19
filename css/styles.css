@@ -1,0 +1,203 @@
+body {
+  color: #1e1e1e;
+  background-color: #ffffff;
+  font-family: "Ubuntu";
+}
+
+.white-bg {
+  background-color: #ffffff;
+}
+
+/* P */
+p {
+  color: #1e1e1e;
+}
+
+.maket {
+  /* Позиционируем макет */
+  position: absolute;
+  top: 0;
+  left: 30px;
+  /* Делаем его полупрозрачным */
+  opacity: 0;
+  /* Оставляем возможность взаимодействия с элементами */
+  pointer-events: none;
+  /* Инвертируем изображение в вашем любимом -webkit (-blink) браузере */
+  -webkit-filter: invert(100%);
+}
+
+body:hover .maket {
+  opacity: .4;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.big-heading {
+  font-size: 5.8rem;
+  line-height: 1.2;
+  padding: 0 0 8% 0;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 0 12%;
+  text-align: center;
+}
+
+.fab {
+  color: white;
+}
+
+/* Navbar */
+#nav .container-fluid {
+  padding: 0 7%;
+}
+
+.navbar {
+  padding: 3rem 0 5.6rem;
+}
+
+.nav-link {
+  color: #616b8a;
+}
+
+.navbar-right {
+  margin-left: 25rem;
+}
+.item {
+  padding-top: 1rem;
+  color: white;
+}
+.nav-link:hover {
+  color: #842bea;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: #000000;
+}
+
+.navbar-brand:hover {
+  color: #842bea;
+}
+
+.nav-item {
+  padding: 0.9rem 0 0 3rem;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Title */
+
+.main {
+  padding-top: 5%;
+}
+
+.title-img {
+  position: absolute;
+  right: 0;
+}
+.title-p {
+  font-weight: 900;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-top: 0.8rem;
+  padding-bottom: 2rem;
+}
+
+.btn {
+  background-color: white;
+  color: #1e1e1e;
+  width: 155px;
+  border-color: #ccc9cf;
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 0.8rem;
+
+}
+.dropdown-toggle {
+  width: 50px;
+  color: #6516c0;
+  border-left: 0;
+}
+.btn-div {
+  padding: 8px;
+  background-color: #6516c0;
+  height: 45px;
+  width: 170px;
+  margin-bottom: 20%;
+}
+.btn-div:hover {
+  background-color: #842bea;
+}
+.btn-p {
+  color: white;
+  margin: 0;
+}
+.btn-group {
+  margin-bottom: 10%;
+}
+.col-btn-div {
+  padding-left: 0;
+}
+@media (max-width: 1100px) {
+  .btn-group {
+    width: 180px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .btn-bl {
+    margin: 0;
+    padding: 0;
+  }
+  .btn {
+    position: relative;
+    left: 0;
+  }
+  .btn-group {
+    margin-bottom: 5%;
+  }
+  .title-img {
+    width: 415px;
+    height: 646px;
+  }
+}
+@media (max-width: 844px) {
+  .title-img {
+    width: 322px;
+    height: 516px;
+  }
+}
+@media (max-width: 739px) {
+  .title-img {
+    width: 257px;
+    height: 356px;
+  }
+}
+@media (max-width: 670px) {
+  .title-img {
+    width: 205px;
+    height: 285px;
+  }
+}
